@@ -1,1 +1,2 @@
 usuario:vagrant
+CPU part	: 0x000
