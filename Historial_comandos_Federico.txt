@@ -1,0 +1,248 @@
+exit
+ls
+cd /vagrant
+ls
+exit
+grep model
+Last login: Thu Apr 23 19:08:20 on ttys001
+federicoferraro@MacBook-Air-de-Federico ~ % vagrant up
+A Vagrant environment or target machine is required to run this
+command. Run `vagrant init` to create a new Vagrant environment. Or,
+get an ID of a target machine from `vagrant global-status` to run
+this command on. A final option is to change to a directory with a
+Vagrantfile and to try again.
+federicoferraro@MacBook-Air-de-Federico ~ % bash
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ vagrant up
+A Vagrant environment or target machine is required to run this
+command. Run `vagrant init` to create a new Vagrant environment. Or,
+get an ID of a target machine from `vagrant global-status` to run
+this command on. A final option is to change to a directory with a
+Vagrantfile and to try again.
+bash-3.2$ cd mi-servidor-qemu
+bash-3.2$ ls
+Vagrantfile
+bash-3.2$ vagrant up
+Bringing machine 'default' up with 'qemu' provider...
+==> default: Checking if box 'ppggff/centos-7-aarch64-2009-4K' version '1.0.0' is up to date...
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+bash-3.2$ vagrant ssh
+Last login: Thu Apr 23 22:11:47 2026 from 10.0.2.2
+[vagrant@localhost ~]$ grep model
+cat /proc/cpuinfo | grep "model name"
+clear
+cat /proc/cpuinfo | grep -i "vendor"
+lscpu
+top
+ruby -v
+grep
+grep "model name"
+sudo yum check-update
+lscpu
+free -h
+df -h
+sudo lshw 
+exit
+vagrant halt
+exit
+ls
+pwd
+cd /vagrant
+ls
+vagrant halt
+halt
+exit
+cat etc
+cat /etc/
+cat /etc
+cat etc
+cat /etc/
+cat /etc/os-release
+ls
+ls /etc/
+sudo cat /etc/shadow/
+sudo cat /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+vagrant hash
+has
+hash
+vagrant hhs
+vagrant down
+vagrant halt
+exit
+sudo adduser fede_ferraro
+2004
+sudo adduser
+sudo adduser fede_ferraro
+users
+cat /etc/passw
+cat /etc/passwd/
+cat /etc/passwd/ | grep fede_ferraro
+cat /etc/passwd | grep fede_ferraro
+exit
+mkdir -p /tmp/pruebas/
+ll /tmp/pruebas
+ls
+pwd
+id pepe
+vagrant halt
+exit
+ls
+vagrant halt
+vagrant hash
+vagrant galt
+vagrant halt
+cd ~/mi-servidor-qemu
+vagrant halt
+cd ~/mi-servidor-qemu
+vagrant haltls
+ls
+exit
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO3wYdERCZzre6ikrzBYCis20Ju+HWSPiR4GNiK+Y9KE vagrant
+cd
+ls
+cd
+ls
+c
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:FedericoFerraro18/TP1-_-AySO-_-2026.git
+ls
+git git@github.com:FedericoFerraro18/TP1-_-AySO-_-2026.git
+git clone
+git clone git@github.com:FedericoFerraro18/TP1-_-AySO-_-2026.git
+git --version
+sudo yum install git -y
+git clone perl-podlators-2.5.1-3.el7.noa FAILED                                          
+http://mirrors.bfsu.edu.cn/centos-altarch/7.9.2009/os/aarch64/Packages/perl-podlators-2.5.1-3.el7.noarch.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+perl-threads-shared-1.43-6.el7 FAILED                                          
+http://mirrors.bfsu.edu.cn/centos-altarch/7.9.2009/os/aarch64/Packages/perl-threads-shared-1.43-6.el7.aarch64.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+perl-threads-1.87-4.el7.aarch6 FAILED                                          
+http://mirrors.huaweicloud.com/centos-altarch/7.9.2009/os/aarch64/Packages/perl-threads-1.87-4.el7.aarch64.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+perl-Encode-2.51-7.el7.aarch64 FAILED                                          
+http://mirrors.bfsu.edu.cn/centos-altarch/7.9.2009/os/aarch64/Packages/perl-Encode-2.51-7.el7.aarch64.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+perl-Carp-1.26-244.el7.noarch. FAILED                                          
+http://mirrors.huaweicloud.com/centos-altarch/7.9.2009/os/aarch64/Packages/perl-Carp-1.26-244.el7.noarch.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+perl-5.16.3-299.el7_9.aarch64. FAILED                                          
+http://mirrors.bfsu.edu.cn/centos-altarch/7.9.2009/updates/aarch64/Packages/perl-5.16.3-299.el7_9.aarch64.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+git-1.8.3.1-25.el7_9.aarch64.r FAILED                                          
+http://mirrors.huaweicloud.com/centos-altarch/7.9.2009/updates/aarch64/Packages/git-1.8.3.1-25.el7_9.aarch64.rpm: [Errno 14] HTTP Error 404 - Not Found
+Intentando con otro espejo.
+ls
+git clone git@github.com:FedericoFerraro18/TP1-_-AySO-_-2026.git
+cd TP1-_-AySO-_-2026/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+ls
+grep -i Home_url /etc/os-release
+whoami
+usuario:fedeferraro
+echo “Usuario=$(whoami)” > datos
+_
+usuario.txt echo “Usuario=$(whoami)” > datos
+_
+echo “Usuario=$(whoami)” > datos
+_
+echo "usuario:vagrant" > datos_usuario.txt
+cat datos_usuario.txt
+echo “Usuario=$(whoami)” > datos
+_
+ls
+git add .
+git config --global user.email "federicoperezw@gmail.com"
+git config --global user.name "FedericoFerraro18"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+cpuinfo
+ls
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+cat /proc/cpuinfo
+grep "CPU part" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | sort > lista_ordenada.txt
+cat lista_ordenada.txt
+git add lista_ordenada.txt
+git commit -m "feat: Añadiendo lista ordenada de usuarios"
+man sort
+grep -v "nologin" /etc/passwd | sort -t: -k7 | head -10 > lista_ordenada.txt
+cat lista_ordenada.txt
+Agregar al stage área del repositorio local el nuevo archivo “lista
+_
+ordenada” y volvemos a comitear.
+Usar como comentario: “ADD: Listado de usuarios ordenada”
+Buscar con qué comando puede realizar un "dump traffic" de la red…. dejar el nombre del
+comando en el archivo “comando
+_
+dump_
+net” y agregar también que comando ejecutar para
+realizar dicha búsqueda..
+Agregar al stage área del repositorio local el nuevo archivo “comando
+_
+dump_
+net” y volvemos a
+comitear.
+Usar como comentario: “ADD: Comando para Capturar y analizar el tráfico de red ”
+Usando técnicas de HereDoc y redireccionamiento, Agregar al README.md la siguiente
+información.
+Alumno: <Tu-Nombre>
+División: <Tu-División>
+Turno: <Turno>
+Agregar al stage área del repositorio local el nuevo archivo y volvemos a comitear.
+Siguiendo las buenas practicas de: https://www.conventionalcommits.org/es/v1.0.0-beta.3/
+Realizar el commit con la convención definida para el Tipo documentación., con el texto que crea
+conveniente.
+SIN MOVERSE DEL DIRECTORIO, utilizando PATHS Relativo…
+Forzar la Escritura del archivo donde se encuentra el historial de comandos
+history -a agrega (append) los comandos nuevos al archivo
+$HOME/.bash
+_
+history
+Copiar dentro del repositorio el archivo .bash
+_
+history que se encuentra en el home del usuario
+dejándolo con el nombre “Historial
+comandos
+<Tu-Nombre>.txt”
+_
+Finalmente deberá realizar el último commit con su respectivo comentario y pushear los cambios
+contra el repositorio remoto de github
+Todas las acciones(clone, add, commit, push) se deben realizar desde la terminal.git add lista_ordenada.txt
+git commit -m "ADD: Listado de usuarios ordenada"
+git add lista_ordenada.txt
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "Comando: tcpdump" > comando_dump_net.txt
+echo "Búsqueda: man -k dump | grep -i network" >> comando_dump_net.txt
+git add comando_dump_net.txt
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+cat >>README.md<< EOF
+Alumno: Federico Hernán Pérez Ferraro
+División: 314
+Turno: Noche
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo información del alumno al README
+git commit -m "docs: Añadiendo información del alumno al README"
+history -a
+git commit -m "Añadiendo información del alumno al README"
+history -a
