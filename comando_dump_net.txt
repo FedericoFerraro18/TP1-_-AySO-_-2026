@@ -1,0 +1,2 @@
+Comando: tcpdump
+Búsqueda: man -k dump | grep -i network
