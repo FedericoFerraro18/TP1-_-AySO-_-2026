@@ -1,7 +1,7 @@
 centos:x:1000:1000:Cloud User:/home/centos:/bin/bash
 fede_ferraro:x:1002:1002::/home/fede_ferraro:/bin/bash
-halt:x:7:0:halt:/sbin:/sbin/halt
 root:x:0:0:root:/root:/bin/bash
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-sync:x:5:0:sync:/sbin:/bin/sync
 vagrant:x:1001:1001::/home/vagrant:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+halt:x:7:0:halt:/sbin:/sbin/halt
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
